@@ -1,9 +1,8 @@
 """
-Coin Collector (Lab Starter)
+Coin Collector.
 
-Run with:  python3 main.py
-
-Controls: Arrow keys to move.
+Run with: python main.py
+Controls: Arrow keys to move; press R after game over to restart.
 """
 
 import pygame
@@ -18,13 +17,19 @@ def main():
     pygame.display.set_caption("Coin Collector")
     clock = pygame.time.Clock()
     font = pygame.font.SysFont("consolas", 22)
-
     engine = GameEngine()
     running = True
+
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
+            elif (
+                event.type == pygame.KEYDOWN
+                and event.key == pygame.K_r
+                and engine.game_over
+            ):
+                engine.reset()
 
         keys = pygame.key.get_pressed()
         engine.handle_input(keys)
