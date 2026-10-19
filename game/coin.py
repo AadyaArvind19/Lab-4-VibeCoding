@@ -7,12 +7,21 @@ import pygame
 
 
 class Coin:
-    def __init__(self, x, y, radius=12, value=1, color=(230, 190, 60)):
+    def __init__(
+        self,
+        x,
+        y,
+        radius=12,
+        value=1,
+        color=(230, 190, 60),
+        coin_type="bronze",
+    ):
         self.x = x
         self.y = y
         self.radius = radius
         self.value = value
         self.color = color
+        self.coin_type = coin_type
 
     def get_rect(self):
         return pygame.Rect(
