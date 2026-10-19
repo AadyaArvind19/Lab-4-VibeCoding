@@ -6,9 +6,12 @@
 - **ChatGPT conversation history:** `Lab4_Chat_History.pdf`
 
 ## Updated Game Code
+
 The complete project and updated code are available in my fork:
 
 [Coin Collector – Updated Repository](https://github.com/AadyaArvind19/06_coin_collector)
+
+The complete updated game code is also included in the `game/` folder and the `main.py` file in this repository.
 
 ## Implemented Features
 - Fixed the coin collection bug so each coin awards points only once and disappears after collection.
