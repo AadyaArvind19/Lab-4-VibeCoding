@@ -1,6 +1,7 @@
 ## Lab 4 – Vibe Coding Assignment
 
 ### Video Demonstrations
+The original MP4 video files are uploaded to this repository as part of the assignment deliverables. Since GitHub does not display these files in an embedded video player in the repository file view, Google Drive links are also provided below for convenient viewing.
 
 - **Before Changes:** [Watch Video](https://drive.google.com/file/d/11fRGmQOSuCUxQYIL425srMps-UHhS_We/view?usp=sharing)
 - **After Changes:** [Watch Video](https://drive.google.com/file/d/15i04MFkgBcUArC0mr81Ti28nYw7yr5er/view?usp=sharing)
